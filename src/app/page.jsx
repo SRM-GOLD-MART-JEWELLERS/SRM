@@ -218,9 +218,11 @@ function MainComponent() {
               >
                 <i className="fas fa-phone text-[#E2C799] text-2xl sm:text-3xl mb-3 sm:mb-4"></i>
                 <p className="text-[#F5E6D3]/90 font-roboto text-base sm:text-lg text-center">
-                  +91 9910115710
+                  +91 9910115710<br></br> +91 9990197627<br></br> +91 81308 96608
                 </p>
+                
               </a>
+              
               <a
                 href="mailto:srmjewellers26@gmail.com"
                 className="p-4 sm:p-6 rounded-xl bg-[#1A1717]/30 backdrop-blur-sm shadow-lg border border-[#E2C799]/10 hover:border-[#E2C799]/30 transition-all duration-300 flex flex-col items-center justify-center"
