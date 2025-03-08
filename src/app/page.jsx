@@ -58,9 +58,9 @@ function MainComponent() {
 
   return (
     <div className="bg-[#1A1717] min-h-screen bg-gradient-to-b from-[#1A1717] to-[#252121] px-4 sm:px-6">
-      <header className="bg-[#1A1717]/60 fixed w-full z-50 backdrop-blur-md shadow-lg mt-4 mx-4 rounded-3xl border border-[#E2C799]/10 max-w-[calc(100%-2rem)] left-1/2 -translate-x-1/2">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex justify-between items-center">
-          <div className="text-2xl sm:text-3xl font-bold font-roboto text-[#E2C799] hover:text-[#D4B88C] transition-colors">
+      <header className="bg-[#1A1717]/60 fixed w-full z-50 backdrop-blur-md shadow-lg mt-4 rounded-3xl border border-[#E2C799]/10 max-w-[98%] left-1/2 -translate-x-1/2">
+        <nav className="max-w-7xl mx-auto px-2 sm:px-4 py-4 sm:py-6 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 relative">
+          <div className="text-2xl sm:text-3xl font-bold font-roboto text-[#E2C799] hover:text-[#D4B88C] transition-colors text-center w-full md:w-auto">
             SRM Jewellers
           </div>
           <div className="hidden md:flex space-x-8 lg:space-x-12 font-roboto">
@@ -85,7 +85,7 @@ function MainComponent() {
           </div>
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-[#E2C799] focus:outline-none p-2 hover:bg-[#E2C799]/10 rounded-xl transition-colors"
+            className="md:hidden text-[#E2C799] focus:outline-none p-2 hover:bg-[#E2C799]/10 rounded-xl transition-colors absolute right-0 top-1/2 -translate-y-1/2"
           >
             <i
               className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"} text-2xl`}
@@ -93,26 +93,26 @@ function MainComponent() {
           </button>
         </nav>
         {isMenuOpen && (
-          <div className="md:hidden bg-[#1A1717]/95 border-t border-[#E2C799]/10 animate-slideIn backdrop-blur-md">
-            <div className="px-4 py-6 space-y-6 font-roboto">
+          <div className="md:hidden bg-[#1A1717]/95 border-t border-[#E2C799]/10 animate-slideIn backdrop-blur-md rounded-b-3xl">
+            <div className="px-4 py-6 space-y-4 font-roboto text-center">
               <a
                 href="#collections"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2"
+                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2 nav-link"
               >
                 Collections
               </a>
               <a
                 href="#services"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2"
+                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2 nav-link"
               >
                 Services
               </a>
               <a
                 href="#contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2"
+                className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2 nav-link"
               >
                 Contact
               </a>
@@ -126,7 +126,7 @@ function MainComponent() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#1A1717] to-[#252121]"></div>
           <div className="relative max-w-7xl mx-auto h-full flex items-center">
             <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full gap-8 sm:gap-12">
-              <div className="w-full md:w-1/2 animate-fadeIn">
+              <div className="w-full md:w-1/2">
                 <img
                   src="https://ucarecdn.com/1ee3927f-19c4-4da4-8697-3264d9f18bc4/-/format/auto/"
                   alt="Stack of shining gold coins"
@@ -134,10 +134,27 @@ function MainComponent() {
                   loading="eager"
                 />
               </div>
-              <div className="w-full md:w-1/2 text-center md:text-right animate-fadeIn">
+              <div className="w-full md:w-1/2 text-center md:text-right">
                 <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold font-roboto mb-4 sm:mb-6 text-[#E2C799] leading-tight">
                   SRM JWELLERS
                 </h1>
+                <div className="flex flex-col gap-2 mb-8 text-center md:text-right">
+                  <div className="flex justify-between md:justify-end items-center gap-4">
+                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">24KT Gold:</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 87,860/10g</span>
+                  </div>
+                  <div className="flex justify-between md:justify-end items-center gap-4">
+                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">22KT Gold:</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 99,100/10g</span>
+                  </div>
+                  <div className="flex justify-between md:justify-end items-center gap-4">
+                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">Silver:</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 75,000/kg</span>
+                  </div>
+                  <div className="text-sm text-[#F5E6D3]/60 text-right mt-2">
+                    Last Updated: Today
+                  </div>
+                </div>
                 <p className="text-xl sm:text-2xl md:text-3xl mb-8 sm:mb-12 font-roboto text-[#F5E6D3]">
                   GOLD BULLION AND CASH FOR GOLD
                 </p>
@@ -379,19 +396,15 @@ function MainComponent() {
         </div>
       </footer>
       <style jsx global>{`
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
+        html {
+          scroll-behavior: smooth;
+        }
+        .animate-slideIn {
+          animation: slideIn 0.5s ease-out forwards;
         }
         @keyframes slideIn {
           from { transform: translateX(-100%); }
           to { transform: translateX(0); }
-        }
-        .animate-fadeIn {
-          animation: fadeIn 0.8s ease-out forwards;
-        }
-        .animate-slideIn {
-          animation: slideIn 0.5s ease-out forwards;
         }
       `}</style>
     </div>
