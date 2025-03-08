@@ -140,16 +140,25 @@ function MainComponent() {
                 </h1>
                 <div className="flex flex-col gap-2 mb-8 text-center md:text-right">
                   <div className="flex justify-between md:justify-end items-center gap-4">
-                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">24KT Gold:</span>
-                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 87,860/10g</span>
+                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">24CT Gold:</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 87,870/10g</span>
                   </div>
                   <div className="flex justify-between md:justify-end items-center gap-4">
-                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">22KT Gold:</span>
-                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 99,100/10g</span>
+                    <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">22CT Gold:</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 81,500/10g</span>
                   </div>
                   <div className="flex justify-between md:justify-end items-center gap-4">
                     <span className="font-semibold text-lg sm:text-xl font-roboto text-[#F5E6D3]">Silver:</span>
-                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 75,000/kg</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 99,000/kg</span>
+                  </div>
+                  <h3 className="text-2xl sm:text-3xl font-bold font-roboto text-[#E2C799] mt-6 mb-3 text-center md:text-right">Today Rate Of Bullions</h3>
+                  <div className="flex justify-between md:justify-end items-center gap-4">
+                    <span className="text-lg sm:text-xl font-roboto text-[#F5E6D3]">916 Gold Coin 8g :</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 65,009 </span>
+                  </div>
+                  <div className="flex justify-between md:justify-end items-center gap-4">
+                    <span className="text-lg sm:text-xl font-roboto text-[#F5E6D3]">999 Gold Coin 10g :</span>
+                    <span className="text-lg sm:text-xl font-roboto text-[#E2C799]">₹ 89,850  </span>
                   </div>
                   <div className="text-sm text-[#F5E6D3]/60 text-right mt-2">
                     Last Updated: Today
