@@ -71,10 +71,10 @@ function MainComponent() {
               Collections
             </a>
             <a
-              href="#why-srm"
+              href="#services"
               className="text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-base lg:text-lg"
             >
-              Why Us
+              Services
             </a>
             <a
               href="#contact"
@@ -103,11 +103,11 @@ function MainComponent() {
                 Collections
               </a>
               <a
-                href="#why-srm"
+                href="#services"
                 onClick={() => setIsMenuOpen(false)}
                 className="block text-[#F5E6D3] hover:text-[#E2C799] transition-colors text-lg py-2"
               >
-                Why Us
+                Services
               </a>
               <a
                 href="#contact"
@@ -190,6 +190,57 @@ function MainComponent() {
                   </h3>
                   <p className="text-[#F5E6D3]/90 font-roboto text-lg">
                     You can get discount at your end by claiming GST
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" className="py-24 px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-5xl font-bold text-[#E2C799] mb-16 font-roboto text-center">
+              Our Services
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#1A1717] to-[#252121]">
+                  <div className="text-center mb-4">
+                    <i className="fas fa-coins text-[#E2C799] text-4xl"></i>
+                  </div>
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto text-center">
+                    Gold Bullion Trading
+                  </h3>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg text-center">
+                    Buy and sell gold bullion at competitive market rates with complete transparency
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#1A1717] to-[#252121]">
+                  <div className="text-center mb-4">
+                    <i className="fas fa-exchange-alt text-[#E2C799] text-4xl"></i>
+                  </div>
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto text-center">
+                    Cash for Gold
+                  </h3>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg text-center">
+                    Get instant cash for your gold with best market value and proper documentation
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#1A1717] to-[#252121]">
+                  <div className="text-center mb-4">
+                    <i className="fas fa-file-invoice text-[#E2C799] text-4xl"></i>
+                  </div>
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto text-center">
+                    GST Billing
+                  </h3>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg text-center">
+                    Professional GST billing service for all transactions with complete documentation
                   </p>
                 </div>
               </div>
