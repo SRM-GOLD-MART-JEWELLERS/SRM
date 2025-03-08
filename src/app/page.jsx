@@ -157,42 +157,125 @@ function MainComponent() {
             <h2 className="text-5xl font-bold text-[#E2C799] mb-16 font-roboto text-center">
               Our Collections
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 auto-rows-fr">
               <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
-                <div className="relative h-80">
-                  <img
-                    src="https://ucarecdn.com/84c9f26f-5f2e-42d6-af29-76136bd74bc2/-/format/auto/"
-                    alt="Gold bars and coins collection"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6 bg-gradient-to-b from-[#1A1717] to-[#252121]">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
                   <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
                     Gold Collection
                   </h3>
-                  <p className="text-[#F5E6D3]/90 font-roboto text-lg">
+                  <div className="relative h-80">
+                    <img
+                      src="https://ucarecdn.com/84c9f26f-5f2e-42d6-af29-76136bd74bc2/-/format/auto/"
+                      alt="Gold bars and coins collection"
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
                     Gift your loving ones with a GOLD BULLION
                   </p>
                 </div>
               </div>
 
               <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
-                <div className="relative h-80">
-                  <img
-                    src="https://ucarecdn.com/964d0823-8bd1-4d3c-ad64-93aec61d7a5a/-/format/auto/"
-                    alt="Person holding a GST bill document"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6 bg-gradient-to-b from-[#1A1717] to-[#252121]">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
                   <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
-                    We Provide GST Bill
+                    Silver Collection
                   </h3>
-                  <p className="text-[#F5E6D3]/90 font-roboto text-lg">
-                    You can get discount at your end by claiming GST
+                  <div className="relative h-80">
+                    <img
+                      src="https://media-hosting.imagekit.io//268d766989f246cf/How%20to%20take%20beautiful%20photographs%20of%20your%20silver%20jewellery%20(3).png?Expires=1836028044&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=k8mAII6vwDzIjDmnx7k4PUuHKiTWU0MX2-fYxOb~s25-HF~BaQxzKhYD9GTxk~6kidNcFUFt7MeIK1ZpoXZGN-mi1gxMPcBXrGib9oIQN4-HdhoEuaKMUHyEXDMnAyOjE6sWJZKr2~-rrf1MRGUiL18BW4Si1o4FLSUKECmsHfAp5ZMgjDkX06j30UiO-KyIOdbydp-fRNs1LFvZjOJW-rOWn4hwmUz7Z4j2VMgKN4hm7oK8aGxeTcbwbaWf4JeeTumX0PmhdR1C1QeLQ~X9KRSZAdNz8PV3czTauvpii9usafRx-mo9c0YOsb50TwZTQDPg2Od3m06wNs5Fum0ieg__"
+                      alt="Silver jewellery collection"
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    Exquisite silver collection at best rates
                   </p>
                 </div>
               </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:transform hover:scale-105 transition-all duration-300 bg-[#1A1717]/30 backdrop-blur-sm border border-[#E2C799]/10">
+                <div className="p-6 bg-gradient-to-b from-[#252121] to-[#1A1717] text-center h-full">
+                  <h3 className="text-2xl font-bold text-[#E2C799] mb-3 font-roboto">
+                    Coming Soon
+                  </h3>
+                  <div className="relative h-80 bg-[#E2C799]/10 flex items-center justify-center">
+                    <i className="fas fa-image text-[#E2C799] text-5xl"></i>
+                  </div>
+                  <p className="text-[#F5E6D3]/90 font-roboto text-lg mt-4">
+                    New collection coming soon
+                  </p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </section>
